@@ -1,8 +1,8 @@
 # OS
 ## textbook - Operating Systems: Three Easy Pieces
 ### Three Pieces
-- Virtualization
+1. Virtualization
   - CPU Virtualization
   - Memory Virtualization
-- Concurrency
-- Persistence
+2. Concurrency
+3. Persistence
