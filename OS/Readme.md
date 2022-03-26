@@ -1,6 +1,6 @@
 # OS 
-## - Operating Systems: Three Easy Pieces
-## Three Pieces
+## textbook - Operating Systems: Three Easy Pieces
+### Three Pieces
   #### 1. Virtualization
   - CPU Virtualization 
   - Memory Virtualization
