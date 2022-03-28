@@ -1,3 +1,17 @@
 cpu가상화의 정의
 : 하나의 cpu 또는 소수의 cpu만 있음에도 많은 cpu들이 있는 것처럼 변환하여 동시에 많은 수의 프로그램을 실행시키는 것처럼 보이도록 하는 기법.
 
+
+
+
+스케줄링 정책의 종류
+1. FIFO(First in, First out)
+2. SJF(Shortest Job First)
+3. STCF(Shortest Time-to-Completion First)
+4. RR(Round Robin)
+5. MLFQ(Multi-Level Feedback Queue)
+
+스케줄링 정책의 특징
+1,2,3의 특징 : 반환시간(turnaround time)은 좋지만 응답시간(response time)은 좋지 않다.
+4의 특징 : 응답시간(response time)은 좋지만 반환시간(turnaround time)은 좋지 않다.
+
