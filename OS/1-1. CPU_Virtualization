@@ -14,4 +14,6 @@ cpu가상화의 정의
 스케줄링 정책의 특징
 1,2,3의 특징 : 반환시간(turnaround time)은 좋지만 응답시간(response time)은 좋지 않다.
 4의 특징 : 응답시간(response time)은 좋지만 반환시간(turnaround time)은 좋지 않다.
+5의 특징 : 응답시간(response time)과 반환시간(turnaround time) 둘다 어느정도 좋다.
+
 
