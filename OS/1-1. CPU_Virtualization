@@ -11,6 +11,23 @@ cpu가상화의 정의
 4. RR(Round Robin)
 5. MLFQ(Multi-Level Feedback Queue)
 
+스케줄링 정책에 대한 간략한 설명
+1. FIFO
+: 
+
+2. SJF
+: 
+
+3. STCF
+: 
+
+4. RR
+: 
+
+5. MLFQ
+: 
+
+
 스케줄링 정책의 특징
 1,2,3의 특징 : 반환시간(turnaround time)은 좋지만 응답시간(response time)은 좋지 않다.
 4의 특징 : 응답시간(response time)은 좋지만 반환시간(turnaround time)은 좋지 않다.
