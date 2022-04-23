@@ -7,6 +7,7 @@
 - 공유자원이 있으면, 경쟁상태가 발생하고, 잘못된 결과가 발생할 수 있다.
 - 잘못된 결과가 발생하지 않도록 병행성제어가 필요하다.
 - 병행성 제어 : 공유자원들을 잘 약속된(동기화된) 방법으로 접근할 수 있도록 강제하는 것
+- 병행성 제어를 위해서 2가지가 제공되어야한다 : 상호배제(뮤텍스 : 락이 사용), 동기화(조건변수 사용)
 
 ### 병행성 이슈들은 어떤 것인가?
 - ex) 생산자/소비자 문제, 기록자/판독자 문제, 식사하는 철학자 문제, ....
@@ -74,13 +75,21 @@
   
   
 ## Mutex 뮤텍스
-  #### 1. SQMS(Single-Queue Multiprocessor Scheduling)
+  #### 1. 뮤텍스의 정의
+  - 상호배제 구현의 기법(뮤텍스를 위해 락이 사용됨)
+  - 상호배제(mutual exclusion)의 약어
   #### 2. MQMS(Multi-Queue Multiprocessor Scheduling)
   
 
 ## Semaphore 세마포어
-  #### 1. SQMS(Single-Queue Multiprocessor Scheduling)
-  #### 2. MQMS(Multi-Queue Multiprocessor Scheduling)
+  #### 1. 세마포어의 정의
+  - 병행성 제어를 위한 목적의 자료구조
+  #### 2. 세마포어의 특징
+  - 락, 조건변수의 용도로 사용가능
+  #### 3. 세마포어의 종류
+  - 바이너리 세마포어
+  - 카운팅 세마포어
+  
   
 ## Deadlock 교착상태
   #### 1. Deadlock의 정의
