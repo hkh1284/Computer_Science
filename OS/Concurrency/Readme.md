@@ -57,8 +57,20 @@
   
 
 ## Condition variable 조건변수
-  #### 1. SQMS(Single-Queue Multiprocessor Scheduling)
-  #### 2. MQMS(Multi-Queue Multiprocessor Scheduling)
+  #### 1. 조건변수의 정의
+  - Synchronization 동기화를 주로 지원하기 위한 매커니즘
+  - 동기화란 '어떤 조건이 만족되는지 여부에 따라 수행을 계속하거나 대기하는 매커니즘'
+  - 동기화를 보장하는 것은 상호배제와 순서관계를 보장하는 것을 의미한다.
+  - 상호배제와 순서관계를 보장하기 위해서 조건변수를 사용한다.
+
+
+  #### 2. 조건변수의 기능
+  - 원하는 조건이 만족되지 않으면 해당 쓰레드/프로세스가 큐에 들어가서 sleep상태로 기다리게 한다. 
+  - 기다리고 있던 조건이 만족되면 sleep중인 쓰레드/프로세스를 깨워서 계속 수행할 수 있도록 한다.
+  
+  #### 3. 조건변수를 위한 api
+  - pthread_cond_wait() : 큐에 넣어서 sleep시키는 기능
+  - pthread_cond_signal() : sleep중인 쓰레드나 프로세스를 깨우는 기능
   
   
 ## Mutex 뮤텍스
