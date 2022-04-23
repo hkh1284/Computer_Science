@@ -48,6 +48,8 @@
   #### 2. MQMS(Multi-Queue Multiprocessor Scheduling)
   
 ## Deadlock 교착상태
-  #### 1. SQMS(Single-Queue Multiprocessor Scheduling)
-  #### 2. MQMS(Multi-Queue Multiprocessor Scheduling)
+  #### 1. Deadlock의 정의
+  #### 2. Deadlock의 처리를 위한 3가지 접근방법 : Prevention예방, Avoidance회피, Detection and Recovery감지&복구
+  
+  
   
