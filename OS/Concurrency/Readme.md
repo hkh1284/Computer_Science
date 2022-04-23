@@ -6,8 +6,8 @@
 ## 용어정리
   #### 1. 공유자원 shared data
   #### 2. 경쟁상태 race condition
-  #### 3. 상호배제 
-  #### 4. 임계영역 
+  #### 3. 상호배제 mutual exclusion
+  #### 4. 임계영역 critical section
 
 
 
@@ -49,7 +49,17 @@
   
 ## Deadlock 교착상태
   #### 1. Deadlock의 정의
-  #### 2. Deadlock의 처리를 위한 3가지 접근방법 : Prevention예방, Avoidance회피, Detection and Recovery감지&복구
+  #### 2. Deadlock의 처리를 위한 3가지 접근방법 
+  - Prevention예방
+  - Avoidance회피
+  - Detection and Recovery감지&복구
   
+## 잘 알려진 병행성 문제
+  #### 1. Producer생산자/Consumer소비자 문제
+  #### 2. Reader기록자/Writer판독자 문제
+  #### 3. Dining Philosopher 식사하는 철학자 문제
   
+## Concurrency bugs 병행성 버그
+  #### 1. non-deadlock bug
+  #### 2. deadlock bug
   
