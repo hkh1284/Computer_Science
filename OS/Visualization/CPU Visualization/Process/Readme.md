@@ -77,4 +77,5 @@
   - 타이머 인터럽트를 기반으로 한 문맥교환
   - context 문맥 : 한 프로세스가 수행을 멈추었다가 다음에 다시 수행될 때 필요한 모든 정보들
   - context switch 문맥교환 : context save + context restore
+  - context save할 때 어디에 save되는가? : pcb 자료구조에서 context부분에 
 
