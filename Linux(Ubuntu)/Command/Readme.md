@@ -22,3 +22,9 @@
 - wget : 'Web Get'의 약어로 웹 상의 파일을 다운로드 받을 때 사용하는 명령어
 - 기본사용 : wget [download-url]
 - 옵션 O : 다른이름으로 저장. ex) wget -O [파일명] [download-url]
+
+
+### tar
+- wget : 'Tape ARchiver'의 약어로 여러개의 파일을 하나로 묶거나 풀 때 사용하는 명령어
+- 자주 사용되는 형태 : tar 
+- 옵션 O : 다른이름으로 저장. ex) wget -O [파일명] [download-url]
